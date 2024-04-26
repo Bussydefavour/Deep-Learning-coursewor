@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicted Customer Churn Label</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Align content at the top */
+        }
+
+        body {
+            flex-direction: column;
+            width: 80%;
+        }
+
+        h1, p {
+            text-align: center;
+        }
+        p{
+            font-size: 18px;
+        }
+        span{
+            font-weight: bold;
+            font: 22px;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Predicted Customer Churn Label</h1>
+    <p><span>The predicted label is (are):</span><br>{{ prediction }}</p>
+</body>
+</html>
